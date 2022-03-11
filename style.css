@@ -261,7 +261,10 @@ header p:hover {
         max-width: 40%;
         margin-right: 5rem;
     }
-
+header img{
+    width: 20%;
+    height: auto;
+}
     header p {
         font-size: 14px;
         border-radius: 2rem;
@@ -335,7 +338,7 @@ header p:hover {
     }
 
     .info {
-        width: 40%;
+        width: 35%;
     }
 
     .bottommid {
@@ -352,5 +355,8 @@ header p:hover {
 
     .socialmedia {
         width: 100px;
+    }
+    .bottomtop .logo {
+        width: 15%;
     }
 }
