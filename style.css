@@ -131,7 +131,7 @@ header p:hover {
 }
 
 .section1, .section2, .section3 {
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.156);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.075);
     margin-bottom: 3rem;
     border-radius: 1rem;
     padding: 3rem;
