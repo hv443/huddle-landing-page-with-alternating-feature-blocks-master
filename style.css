@@ -27,7 +27,6 @@ a {
     width: max-content;
     text-decoration: none;
     cursor: pointer;
-    color: hsl(192, 100%, 9%);
 }
 
 button:hover {
@@ -52,8 +51,7 @@ header {
 }
 
 header img {
-    width: 25%;
-    height: 20%;
+    width: 30%;
     color: black;
 }
 
@@ -171,7 +169,7 @@ header p:hover {
 }
 
 .bottomtop .logo {
-    width: 20%;
+    width: 30%;
 }
 
 .location, .phone, .email {
@@ -219,6 +217,8 @@ header p:hover {
 .socialmedia {
     display: flex;
     justify-content: center;
+    height: 50px;
+    align-items: center;
 }
 
 .bottomend p {
@@ -234,6 +234,10 @@ header p:hover {
 
 .bottommid p:hover {
     text-decoration: underline;
+}
+.copyright {
+    text-align: center;
+    font-size: 12px;
 }
 
 
@@ -262,7 +266,7 @@ header p:hover {
         margin-right: 5rem;
     }
 header img{
-    width: 20%;
+    width: 15%;
     height: auto;
 }
     header p {
