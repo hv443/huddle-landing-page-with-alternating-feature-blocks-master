@@ -15,7 +15,7 @@ body {
 button, .button2 {
     background-color: hsl(322, 100%, 66%);
     border: none;
-    padding: .8rem 3rem;
+    padding: 1.2rem 5rem;
     border-radius: 2rem;
     color: white;
     font-weight: 600;
@@ -30,11 +30,11 @@ a {
 }
 
 button:hover {
-    box-shadow: 0 0 5px black;
+    background-color:  hsla(322, 100%, 66%, 0.721);
 }
 
 .content {
-    padding: 1.5rem;
+    padding: 2rem;
 }
 
 .pagetop {
@@ -56,7 +56,7 @@ header img {
 }
 
 header p {
-    color: hsl(208, 11%, 55%);
+    color: hsl(208, 18%, 21%);
     font-size: 12px;
     font-weight: 600;
     background-color: white;
@@ -77,17 +77,18 @@ header p:hover {
     text-align: center;
     margin-top: 5rem;
     align-items: center;
+    padding: 4rem;
 }
 
 .maincontent .h1 {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 600;
     margin-bottom: 1rem;
 }
 
 .maincontent .description {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 2rem;
     color: hsl(192, 100%, 9%)
 }
@@ -106,28 +107,31 @@ header p:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
+    margin-bottom: -5rem;
 }
 
 /* heading font */
 
 .midheading {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
-    margin: 1.5rem 0;
+    margin: 1.5rem ;
 }
 
 /* description font */
 
 .middescription {
+    font-weight: 400;
+    font-size: 14px;
     color: hsl(208, 11%, 55%);
 }
 
 /* mid image */
 
 .midsection img {
-    width: 100%;
+    width: 90%;
 }
 
 .section1, .section2, .section3 {
@@ -150,7 +154,7 @@ header p:hover {
 
 .floatbox p {
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     color: black;
 }
 
@@ -161,7 +165,7 @@ header p:hover {
     background-color: hsl(192, 100%, 9%);
     color: hsl(193, 100%, 96%);
     padding: 1rem;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .bottomtop {
@@ -170,14 +174,16 @@ header p:hover {
 
 .bottomtop .logo {
     width: 30%;
+    margin-bottom: 1.5rem;
 }
 
 .location, .phone, .email {
     display: flex;
-    margin: 1.5rem 0;
+    margin-bottom: 1.5rem;
 }
 
 .img {
+    padding-top: .3rem;
     margin-right: 1.5rem;
 }
 
@@ -191,7 +197,7 @@ header p:hover {
 }
 
 .bottommid p {
-    margin: .5rem 0;
+    margin-bottom: 1rem;
     width: max-content;
     color: hsl(193, 100%, 96%);
 }
@@ -208,9 +214,9 @@ header p:hover {
     margin: .5rem;
     border: 1px solid white;
     border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
     padding: 5px;
-    width: 30px;
-    height: 30px;
     transition: .5s;
 }
 
@@ -276,7 +282,7 @@ header img{
     }
 
     .button2 {
-        padding: 1.4rem 5rem;
+        padding: 1.2rem 6rem;
         border-radius: 3rem;
     }
 
@@ -291,7 +297,17 @@ header img{
         align-items: center;
         text-align: left;
     }
-
+    .midheading{
+        margin-left: 0;
+         font-size: 24px;
+    }
+    .middescription{
+        font-size: 16px;
+    }
+    .midsection img{
+        width: 100%;
+    }
+    
     .section3 .sectiontext {
         width: 50%;
         margin: 0rem 8rem 0rem 0rem;
@@ -329,6 +345,10 @@ header img{
 
     .bottom {
         padding: 2rem 5rem;
+    }
+
+    .bottom p{
+        font-size: 18px;
     }
 
     .bottomtop {
