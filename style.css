@@ -15,7 +15,7 @@ body {
 button, .button2 {
     background-color: hsl(322, 100%, 66%);
     border: none;
-    padding: 1.2rem 5rem;
+    padding: 1rem 2rem;
     border-radius: 2rem;
     color: white;
     font-weight: 600;
@@ -144,8 +144,8 @@ header p:hover {
 
 .floatbox {
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.156);
-    padding: 3rem 1rem;
-    margin: 2rem;
+    padding: 2rem 0.5rem;
+    margin: 4rem  2rem;
     border-radius: 1rem;
     text-align: center;
     background-color: white;
@@ -271,7 +271,7 @@ header p:hover {
         max-width: 40%;
         margin-right: 5rem;
     }
-header img{
+    header img{
     width: 15%;
     height: auto;
 }
@@ -280,7 +280,9 @@ header img{
         border-radius: 2rem;
         padding: .8rem 3rem;
     }
-
+   button{
+       padding: 1.2rem 5rem;
+   }
     .button2 {
         padding: 1.2rem 6rem;
         border-radius: 3rem;
